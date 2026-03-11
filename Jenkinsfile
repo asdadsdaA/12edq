@@ -4,10 +4,10 @@ pipeline {
     environment {
         // 🔸 Укажите правильное имя образа, включая ваш логин Docker Hub.
         //    Убедитесь, что 'bnmf' - это правильный логин.
-        DOCKER_IMAGE = 'bnmf/my-php-app'
+        DOCKER_IMAGE = 'solumieres/my-php-app'
         
         // 🔸 Замените '123457' на реальный ID ваших учетных данных Docker Hub из Jenkins.
-        DOCKER_CREDENTIALS_ID = 'docker-hub-creds'
+        DOCKER_CREDENTIALS_ID = '1234'
     }
 
     stages {
